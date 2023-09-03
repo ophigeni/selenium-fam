@@ -13,7 +13,7 @@ def watch_link(url):
     options.use_chromium = True
     options.add_argument("-inprivate"),
     options.add_argument("--disable-gpu"),
-    options.add_argument("--headless"),
+    #options.add_argument("--headless"),
     options.add_argument("--no-sandbox"),
     options.add_argument("--incognito"),
     options.add_argument("--disable-dev-shm-usage")
